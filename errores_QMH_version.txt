@@ -1,0 +1,60 @@
+===========================================
+Error: -1073807194
+Revise la conexión de la interfaz USB-GPIB/RS232, inesperadamente perdió la comunicación con la PC local.
+Uno o ambos instrumentos (Hi-Pot y/o GB) quedaron desconectados. Si la falla ocurrió durante la prueba Hi-Pot revise si la detección de ARCO esta activada.
+===========================================
+Error: -1073807195
+Es posible que la interfaz USB-GPIB no esté conectada a la PC local.
+===========================================
+Error: -1073807265
+La interfaz USB-GPIB del instrumento puede haberse desconectado momentáneamente, y por ello, haber perdido la comunicación con la PC local. 
+Es posible que haya habido un fenómeno de ARCO durante la prueba, la detección de ARCO debería estar activada en el instrumento de Hi-Pot.
+Es posible que deba reiniciar el instrumento y la PC local.
+===========================================
+Error: -1073807300
+Es posible que haya una pérdida de conexión permanente con el instrumento. Pruebe desconectar y re-conectar la interfaz 
+USB-GPIB del puerto USB de la PC local.
+Si el error persiste es posible que deba reiniciar al instrumento y la PC local.
+===========================================
+Error: -1073807304
+Uno o ambos instrumentos pueden estar apagados o estar reiniciándose.
+===========================================
+Error: -1073807312
+Es posible que haya apretado el botón Exit o también que haya intentado cerrar el panel frontal mientras el sistema estaba realizando una prueba.
+===========================================
+Error: -1073803838
+Revise la conexión de la interfaz USB-RS232. Inesperadamente perdió la comunicación con la PC local.
+===========================================
+Error: -1073807339
+Es posible que uno o ambos instrumentos estén apagados o desconectados.
+===========================================
+Error: -1073807342
+La interfaz USB-GPIB del instrumento puede haberse desconectado momentáneamente, y por ello, haber perdido la comunicación con la PC local.
+Es posible que haya habido un fenómeno de ARCO durante la prueba, la detección de ARCO debería estar activada en el instrumento de Hi-Pot.
+===========================================
+Error: -1073807343
+Es posible que no haya interfaces SERIAL o GPIB conectadas a la PC local. 
+Los recursos son insuficientes para iniciar la aplicación.
+===========================================
+Error: -1073807360
+Revise la conexión de la interfaz USB-RS232. Inesperadamente perdió la comunicación con la PC local.
+Si la desconexión ocurrió durante la prueba de Hi-Pot, es posible que haya habido un fenómeno de ARCO durante la prueba, la detección de ARCO debería estar activada en el instrumento de Hi-Pot.
+===========================================
+Otros problemas detectados:
+
+En algunos casos la interfaz de usuario puede quedar congelada ante la desconexión de la interfaz SERIAL del instrumento, sin que aparezca un mensaje de error. En estos casos, pruebe desconectar y  re-conectar el adaptador USB-SERIE RS232 para que la aplicación retome el control.
+También puede ocurrir que al hacer correr la aplicación nuevamente, luego de desconectar y re-conectarla interfaz, aparezca el error -10738076360. En esto casos repita la operación de desconectar y re-conectar el adaptador USB-SERIE RS232.
+
+
+
+
+
+
+
+===========================================
+Warning. This app is a proof of concept and has no other purpose, 
+it is not intended for production.  
+Use at your own risk.
+
+
+

@@ -1,0 +1,462 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="shortcut icon" href="https://www.jki.net/hubfs/JKI%20Logos/favicon.png">
+    <meta name="description" content="">
+    
+    
+    
+     
+    
+    
+    
+    <script src="/hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="">
+    <meta property="og:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://www.jki.net/hs-fs/hub/546933/hub_generated/template_assets/35167360856/1600672006130/JKI_September2020/css/layout.min.css">
+<link rel="stylesheet" href="https://www.jki.net/hs-fs/hub/546933/hub_generated/template_assets/35167360840/1601563209085/JKI_September2020/css/main.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,700|Lato:300,400,700,900|Work+Sans:200,300,400,700|Roboto:300,500|Source+Sans+Pro:200,300&amp;display=swap">
+<link rel="stylesheet" href="https://www.jki.net/hs-fs/hub/546933/hub_generated/template_assets/35167360860/1601464434855/JKI_September2020/css/theme-overrides.min.css">
+<link rel="stylesheet" href="https://www.jki.net/hs-fs/hub/546933/hub_generated/module_assets/35167360829/1603227196174/module_35167360829_menu-section.min.css">
+    
+
+    
+<!--  Added by GoogleAnalytics4 integration -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied'
+  });
+
+  var _hsp = window._hsp = window._hsp || [];
+
+  _hsp.push(['addPrivacyConsentListener', function(consent){
+    var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+    var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+    gtag('consent', 'update', {
+      'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+      'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied'
+    });
+  }]);
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-FZE25F421D');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZE25F421D"></script>
+<!-- /Added by GoogleAnalytics4 integration -->
+
+    <link rel="canonical" href="https://www.jki.net/404">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property="og:url" content="https://www.jki.net/404">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+    
+  <meta name="generator" content="HubSpot"></head>
+  <body>
+    <div class="body-wrapper   hs-content-id-0 hs-site-page page ">
+      
+      <div data-global-resource-path="JKI_September2020/templates/partials/header.html"><header class="header">
+  <div class="header__container">
+
+    <div class="header-logo-wrapper">
+      <!-- toggle -->
+      <div class="header--toggle header__navigation--toggle">
+        <span class="icon-bar-white"></span>
+        <span class="icon-bar-white"></span>
+        <span class="icon-bar-white"></span>
+      </div>
+      <div class="header__close--toggle"></div>
+
+      <div class="header-logo">
+        <!-- Logo -->
+        
+        <div id="hs_cos_wrapper_header_logo_image" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+  
+
+
+
+
+
+  <span id="hs_cos_wrapper_header_logo_image_hs_logo_widget" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="logo"><a href="/?hsLang=en" id="hs-link-header_logo_image_hs_logo_widget" style="border-width:0px;border:0px;"><img src="https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-sm.png?width=274&amp;height=200&amp;name=jki-white-sm.png" class="hs-image-widget " height="200" style="height: auto;width:274px;border-width:0px;border:0px;" width="274" alt="JKI" title="JKI" srcset="https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-sm.png?width=137&amp;height=100&amp;name=jki-white-sm.png 137w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-sm.png?width=274&amp;height=200&amp;name=jki-white-sm.png 274w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-sm.png?width=411&amp;height=300&amp;name=jki-white-sm.png 411w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-sm.png?width=548&amp;height=400&amp;name=jki-white-sm.png 548w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-sm.png?width=685&amp;height=500&amp;name=jki-white-sm.png 685w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-sm.png?width=822&amp;height=600&amp;name=jki-white-sm.png 822w" sizes="(max-width: 274px) 100vw, 274px"></a></span>
+</div>
+      </div>
+    </div>
+
+    <div class="header-menu">
+      <div class="header__navigation header--element">
+        <div class="custom-menu-primary">
+          <!-- Menu -->
+          <div id="hs_cos_wrapper_navigation-primary" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+<nav aria-label="Main menu" class="navigation-primary">
+  
+
+
+
+<ul class="submenu level-1" aria-hidden="false">
+  <div class="triangle-container level-1"><div class="triangle level-1"></div></div>
+  
+  
+<li class="has-submenu menu-item">
+  <a class="menu-link" href="?hsLang=en">
+    <span class="menu-link-border">
+      Industries
+    </span>
+  </a>
+  
+  <div class="child-trigger"></div>
+  
+  
+  
+
+
+
+<ul class="submenu level-2" aria-hidden="true">
+  <div class="triangle-container level-2"><div class="triangle level-2"></div></div>
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/automotive?hsLang=en">
+    <span class="menu-link-border">
+      Automotive
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/energy?hsLang=en">
+    <span class="menu-link-border">
+      Energy
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/biotech?hsLang=en">
+    <span class="menu-link-border">
+      Biotech
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/semicon?hsLang=en">
+    <span class="menu-link-border">
+      Semiconductor
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/aerospace?hsLang=en">
+    <span class="menu-link-border">
+      Aerospace
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+</ul>
+
+  
+</li>
+
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/tools?hsLang=en">
+    <span class="menu-link-border">
+      Tools
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/case-studies?hsLang=en">
+    <span class="menu-link-border">
+      Case Studies
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+  
+<li class="no-submenu menu-item">
+  <a class="menu-link" href="https://www.jki.net/get-started?hsLang=en">
+    <span class="menu-link-border">
+      Get Started
+    </span>
+  </a>
+  
+  
+</li>
+
+  
+</ul>
+  
+</nav></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<div class="header-mobile-menu">
+  <div id="hs_cos_wrapper_header_mobile_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<span id="hs_cos_wrapper_header_mobile_menu_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_mobile_menu_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="35173086150" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://resources.jki.net/labview-training" role="menuitem" target="_blank" rel="noopener">LabVIEW Training</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.jki.net/tools" role="menuitem">Tools</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.jki.net/" role="menuitem" target="_blank" rel="noopener">Blog</a></li>
+ </ul>
+</div></span></div>
+</div></div>
+      
+
+      
+<div class="content-wrapper">
+
+  <div class="error-breadcrumb">
+    <div class="page-center">
+
+      <div class="breadcrumb-header">
+        <div class="breadcrumb-page-title">                   
+          <ul class="hs-breadcrumb-menu">
+            <li class="hs-breadcrumb-menu-item last-crumb">
+              <span class="hs-breadcrumb-label">Page Not Found</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="error-page error-page-outer error-404-group">
+
+    <div class="errow-page-wrapper">
+      <div class="error-col-left">
+        <h1>Page Not Found.</h1>
+        <p>
+          Sorry, but the page you were trying to view does not exist. <br><br>
+          Can we help you find what you were looking for? <br><br>          
+          <a class="error-contact" href="/contact?hsLang=en">
+            Contact Us
+          </a>
+        </p>
+      </div>
+
+      <div class="error-col-right">
+        <img src="https://www.jki.net/hubfs/raw_assets/public/JKI_September2020/images/robot-small.png">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+      
+      <div data-global-resource-path="JKI_September2020/templates/partials/footer.html"><footer class="footer">
+  <div class="footer__container">
+
+    <div class="footer__main">
+      <div class="footer-menu">
+        <!-- Sitemap -->
+        <div id="hs_cos_wrapper_footer-sitemap" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<span id="hs_cos_wrapper_footer-sitemap_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer-sitemap_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="35172968753" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="javascript:;" role="menuitem">Services</a></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Tools</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#vipm" role="menuitem">VI Package Manager</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#state-machine" role="menuitem">JKI State Machine</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#state-machine-objects" role="menuitem">JKI SMO</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#easyxml" role="menuitem">EasyXML</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#vi-tester" role="menuitem">VI Tester</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#caraya" role="menuitem">Caraya</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#flat-ui" role="menuitem">JKI Flat UI Controls 2.0</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#design-palette" role="menuitem">JKI Design Palette</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#json" role="menuitem">JKI JSON</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.jki.net/tools#rest" role="menuitem">JKI REST</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Company</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://blog.jki.net/" role="menuitem" target="_blank" rel="noopener">Blog</a></li>
+   </ul></li>
+ </ul>
+</div></span></div>
+      </div>
+
+      <div class="footer-logo">
+        <!-- Logo -->
+        <div id="hs_cos_wrapper_footer_logo_linked_image" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_footer_logo_linked_image_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-md.png?width=200&amp;name=jki-white-md.png" class="hs-image-widget " style="width:200px;border-width:0px;border:0px;" width="200" alt="JKI" title="JKI" srcset="https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-md.png?width=100&amp;name=jki-white-md.png 100w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-md.png?width=200&amp;name=jki-white-md.png 200w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-md.png?width=300&amp;name=jki-white-md.png 300w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-md.png?width=400&amp;name=jki-white-md.png 400w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-md.png?width=500&amp;name=jki-white-md.png 500w, https://www.jki.net/hs-fs/hubfs/raw_assets/public/JKI_September2020/images/jki-white-md.png?width=600&amp;name=jki-white-md.png 600w" sizes="(max-width: 200px) 100vw, 200px"></span></div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer__copyright">
+        <!-- Copyright Text -->
+        <div id="hs_cos_wrapper_footer_copyright_text" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_footer_copyright_text_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>© 2023 JKI - <a href="/terms-of-use?hsLang=en">Terms of Use</a> - <a href="/privacy?hsLang=en">Privacy
+and Security Statement</a> - <a href="/legal?hsLang=en">Legal</a>
+</p></span></div>
+      </div>
+
+      <div class="footer-social">
+        <!-- Social Text -->
+        <div id="hs_cos_wrapper_footer_social" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_footer_social_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><a href="https://github.com/JKISoftware" target="_blank">
+<i class="fa-github-square"></i>
+</a>
+<a href="https://www.facebook.com/JKISoftware/" target="_blank">
+<i class="fa-facebook-square"></i>
+</a>
+<a href="https://twitter.com/jkisoftware" target="_blank">
+<i class="fa-twitter-square"></i>
+</a>
+<a href="https://www.linkedin.com/company/jki" target="_blank">
+<i class="fa-linkedin-square"></i>
+</a>
+<a href="https://www.instagram.com/jkisoftware/" target="_blank">
+<i class="fa-instagram"></i>
+</a></span></div>
+      </div>
+    </div>
+
+  </div>
+</footer></div>
+      
+    </div>
+    
+<!-- HubSpot performance collection script -->
+<script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.372/embed.js"></script>
+<script src="https://www.jki.net/hs-fs/hub/546933/hub_generated/template_assets/35167360867/1601557719129/JKI_September2020/js/main.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="https://www.jki.net/hs-fs/hub/546933/hub_generated/module_assets/35167360829/1603227196111/module_35167360829_menu-section.min.js"></script>
+<script src="/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.jki.net\/404"]);
+_hsq.push(["setPageId", ""]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": null,
+    "legacyPageId": null,
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": null,
+    "languageCode": "en",
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/546933.js?businessUnitId=0"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "fd52942e-2da8-4dae-bb33-7abbb04d77d8",
+    ticks: 1691612306350,
+    page_id: 0,
+    
+    content_group_id: 0,
+    portal_id: 546933,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    analytics_page_id: "null",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.191/js/index.js"></script>
+
+
+
+
+  
+</body></html>

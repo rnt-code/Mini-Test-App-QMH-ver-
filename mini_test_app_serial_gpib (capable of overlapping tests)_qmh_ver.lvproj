@@ -103,8 +103,10 @@
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
+			<Item Name="Error Handler - Message Handling Loop_for_GB_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_GB_loop.vi"/>
+			<Item Name="Error Handler - Message Handling Loop_for_HP_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_HP_loop.vi"/>
+			<Item Name="Error Handler - Message Handling Loop_for_MAIN.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_MAIN.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
-			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Test definition module" Type="Folder">
 			<Item Name="dependencies" Type="Folder">
@@ -200,9 +202,6 @@
 			<Item Name="19572_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19572_rs232_settings.vi"/>
 			<Item Name="close_visa_resources.vi" Type="VI" URL="../VISA Resources/close_visa_resources.vi"/>
 			<Item Name="Delay.vi" Type="VI" URL="../base drivers/Delay.vi"/>
-			<Item Name="Error Handler - Message Handling Loop_for_GB_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_GB_loop.vi"/>
-			<Item Name="Error Handler - Message Handling Loop_for_HP_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_HP_loop.vi"/>
-			<Item Name="Error Handler - Message Handling Loop_for_MAIN.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_MAIN.vi"/>
 			<Item Name="GB Data.ctl" Type="VI" URL="../controls/GB Data.ctl"/>
 			<Item Name="get_19052_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19052_COM_settings.vi"/>
 			<Item Name="get_19572_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19572_COM_settings.vi"/>

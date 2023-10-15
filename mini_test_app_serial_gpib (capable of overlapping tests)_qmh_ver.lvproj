@@ -11,6 +11,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -57,8 +58,8 @@
 			</Item>
 			<Item Name="Get_19572_total_test_time.vi" Type="VI" URL="../19572 Get Total Test Time/Get_19572_total_test_time.vi"/>
 		</Item>
-		<Item Name="controls" Type="Folder">
-			<Item Name="HP Data.ctl" Type="VI" URL="../controls/HP Data.ctl"/>
+		<Item Name="controls" Type="Folder" URL="../controls">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="dependencies" Type="Folder" URL="../dependencies">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -119,11 +120,6 @@
 				<Item Name="the_greatest.vi" Type="VI" URL="../Test definition module/dependencies/the_greatest.vi"/>
 			</Item>
 			<Item Name="test_definitions_module.vi" Type="VI" URL="../Test definition module/test_definitions_module.vi"/>
-		</Item>
-		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="Hi-Pot TestI Data.ctl" Type="VI" URL="../controls/Hi-Pot TestI Data.ctl"/>
-			<Item Name="Highway_GB_Data.ctl" Type="VI" URL="../Type Definitions/Highway_GB_Data.ctl"/>
-			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi" Type="VI" URL="../mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi"/>
@@ -202,7 +198,6 @@
 			<Item Name="19572_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19572_rs232_settings.vi"/>
 			<Item Name="close_visa_resources.vi" Type="VI" URL="../VISA Resources/close_visa_resources.vi"/>
 			<Item Name="Delay.vi" Type="VI" URL="../base drivers/Delay.vi"/>
-			<Item Name="GB Data.ctl" Type="VI" URL="../controls/GB Data.ctl"/>
 			<Item Name="get_19052_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19052_COM_settings.vi"/>
 			<Item Name="get_19572_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19572_COM_settings.vi"/>
 			<Item Name="get_GPIB_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_GPIB_settings.vi"/>

@@ -1,17 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="IOScan.Faults" Type="Str"></Property>
-		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="IOScan.Priority" Type="UInt">9</Property>
-		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -58,40 +47,37 @@
 			</Item>
 			<Item Name="Get_19572_total_test_time.vi" Type="VI" URL="../19572 Get Total Test Time/Get_19572_total_test_time.vi"/>
 		</Item>
-		<Item Name="controls" Type="Folder" URL="../controls">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="base drivers" Type="Folder">
+			<Item Name="19052 Get_instrument_ID.vi" Type="VI" URL="../base drivers/19052 Get_instrument_ID.vi"/>
+			<Item Name="19052 Get_Result_ALL_JUDGMENT.vi" Type="VI" URL="../base drivers/19052 Get_Result_ALL_JUDGMENT.vi"/>
+			<Item Name="19052 Series START.vi" Type="VI" URL="../base drivers/19052 Series START.vi"/>
+			<Item Name="19052 Series STOP.vi" Type="VI" URL="../base drivers/19052 Series STOP.vi"/>
+			<Item Name="19052_Get_STATUS.vi" Type="VI" URL="../base drivers/19052_Get_STATUS.vi"/>
+			<Item Name="19572 Get_instrument_ID.vi" Type="VI" URL="../base drivers/19572 Get_instrument_ID.vi"/>
+			<Item Name="19572 Get_Result_ALL_JUDGMENT.vi" Type="VI" URL="../base drivers/19572 Get_Result_ALL_JUDGMENT.vi"/>
+			<Item Name="19572 Series START.vi" Type="VI" URL="../base drivers/19572 Series START.vi"/>
+			<Item Name="19572 Series STOP.vi" Type="VI" URL="../base drivers/19572 Series STOP.vi"/>
+			<Item Name="19572_Get_STATUS.vi" Type="VI" URL="../base drivers/19572_Get_STATUS.vi"/>
+			<Item Name="Delay.vi" Type="VI" URL="../base drivers/Delay.vi"/>
+			<Item Name="VISA_session_close.vi" Type="VI" URL="../base drivers/VISA_session_close.vi"/>
+			<Item Name="VISA_session_open.vi" Type="VI" URL="../base drivers/VISA_session_open.vi"/>
 		</Item>
-		<Item Name="dependencies" Type="Folder" URL="../dependencies">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Project Documentation" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Documentation Images" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="loc_access_task_data.png" Type="Document" URL="../documentation/loc_access_task_data.png"/>
-				<Item Name="loc_bundle_new_button_ref.png" Type="Document" URL="../documentation/loc_bundle_new_button_ref.png"/>
-				<Item Name="loc_convert_variant.png" Type="Document" URL="../documentation/loc_convert_variant.png"/>
-				<Item Name="loc_create_two_queues.png" Type="Document" URL="../documentation/loc_create_two_queues.png"/>
-				<Item Name="loc_disable_new_button.png" Type="Document" URL="../documentation/loc_disable_new_button.png"/>
-				<Item Name="loc_enqueue_generic_message.png" Type="Document" URL="../documentation/loc_enqueue_generic_message.png"/>
-				<Item Name="loc_enqueue_message_with_data.png" Type="Document" URL="../documentation/loc_enqueue_message_with_data.png"/>
-				<Item Name="loc_enqueue_priority_message.png" Type="Document" URL="../documentation/loc_enqueue_priority_message.png"/>
-				<Item Name="loc_exit_message.png" Type="Document" URL="../documentation/loc_exit_message.png"/>
-				<Item Name="loc_message_queue_wire.png" Type="Document" URL="../documentation/loc_message_queue_wire.png"/>
-				<Item Name="loc_new_message_diagram.png" Type="Document" URL="../documentation/loc_new_message_diagram.png"/>
-				<Item Name="loc_new_task_loop.png" Type="Document" URL="../documentation/loc_new_task_loop.png"/>
-				<Item Name="loc_new_task_typedef.png" Type="Document" URL="../documentation/loc_new_task_typedef.png"/>
-				<Item Name="loc_open_msg_queue_typedef.png" Type="Document" URL="../documentation/loc_open_msg_queue_typedef.png"/>
-				<Item Name="loc_qmh_ignore_errors.png" Type="Document" URL="../documentation/loc_qmh_ignore_errors.png"/>
-				<Item Name="loc_queued_message_handler.gif" Type="Document" URL="../documentation/loc_queued_message_handler.gif"/>
-				<Item Name="loc_stop_new_mhl.png" Type="Document" URL="../documentation/loc_stop_new_mhl.png"/>
-				<Item Name="loc_stop_task.png" Type="Document" URL="../documentation/loc_stop_task.png"/>
-				<Item Name="loc_ui_data.png" Type="Document" URL="../documentation/loc_ui_data.png"/>
-				<Item Name="loc_value_change_event.png" Type="Document" URL="../documentation/loc_value_change_event.png"/>
-				<Item Name="noloc_note.png" Type="Document" URL="../documentation/noloc_note.png"/>
-				<Item Name="noloc_tip.png" Type="Document" URL="../documentation/noloc_tip.png"/>
-			</Item>
-			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
+		<Item Name="dependencies" Type="Folder">
+			<Item Name="19052_get_test_times.vi" Type="VI" URL="../dependencies/19052_get_test_times.vi"/>
+			<Item Name="19572_get_test_times.vi" Type="VI" URL="../dependencies/19572_get_test_times.vi"/>
+			<Item Name="delay_time_control.vi" Type="VI" URL="../dependencies/delay_time_control.vi"/>
+			<Item Name="error_messages.vi" Type="VI" URL="../dependencies/error_messages.vi"/>
+			<Item Name="exit-tasks.vi" Type="VI" URL="../dependencies/exit-tasks.vi"/>
+			<Item Name="get_active_modes.vi" Type="VI" URL="../dependencies/get_active_modes.vi"/>
+			<Item Name="get_and_insert_SN.vi" Type="VI" URL="../dependencies/get_and_insert_SN.vi"/>
+			<Item Name="read_delay_time.vi" Type="VI" URL="../dependencies/read_delay_time.vi"/>
+			<Item Name="read_tesmode.vi" Type="VI" URL="../dependencies/read_tesmode.vi"/>
+			<Item Name="select_queue_path.vi" Type="VI" URL="../dependencies/select_queue_path.vi"/>
+			<Item Name="test_mode_control.vi" Type="VI" URL="../dependencies/test_mode_control.vi"/>
+			<Item Name="test_mode_selector.vi" Type="VI" URL="../dependencies/test_mode_selector.vi"/>
+			<Item Name="test_number_selector.vi" Type="VI" URL="../dependencies/test_number_selector.vi"/>
+			<Item Name="time_adding_loop.vi" Type="VI" URL="../dependencies/time_adding_loop.vi"/>
+			<Item Name="Trim_Whitespace_re_entrant.vi" Type="VI" URL="../dependencies/Trim_Whitespace_re_entrant.vi"/>
 		</Item>
 		<Item Name="Stopwatch" Type="Folder">
 			<Item Name="stop_watch_w_feedback_node1.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node1.vi"/>
@@ -99,15 +85,18 @@
 			<Item Name="stopwatch kernel1.vi" Type="VI" URL="../Stopwatch/stopwatch kernel1.vi"/>
 			<Item Name="stopwatch kernel2.vi" Type="VI" URL="../Stopwatch/stopwatch kernel2.vi"/>
 		</Item>
-		<Item Name="Support VIs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
-			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
+		<Item Name="support" Type="Folder">
+			<Item Name="Message Queue" Type="Folder">
+				<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
+			</Item>
+			<Item Name="User Event - Stop" Type="Folder">
+				<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
+			</Item>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
+			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop_for_GB_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_GB_loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop_for_HP_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_HP_loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop_for_MAIN.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_MAIN.vi"/>
-			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 		</Item>
 		<Item Name="Test definition module" Type="Folder">
 			<Item Name="dependencies" Type="Folder">
@@ -121,9 +110,27 @@
 			</Item>
 			<Item Name="test_definitions_module.vi" Type="VI" URL="../Test definition module/test_definitions_module.vi"/>
 		</Item>
-		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
+		<Item Name="VISA Resources" Type="Folder">
+			<Item Name="dependencies" Type="Folder">
+				<Item Name="19052_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19052_rs232_settings.vi"/>
+				<Item Name="19572_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19572_rs232_settings.vi"/>
+				<Item Name="get_19052_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19052_COM_settings.vi"/>
+				<Item Name="get_19572_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19572_COM_settings.vi"/>
+				<Item Name="get_GPIB_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_GPIB_settings.vi"/>
+				<Item Name="get_interface_type.vi" Type="VI" URL="../VISA Resources/dependencies/get_interface_type.vi"/>
+				<Item Name="gpib_build_visa_resource_name.vi" Type="VI" URL="../VISA Resources/dependencies/gpib_build_visa_resource_name.vi"/>
+				<Item Name="rs232_build_visa_resource_name.vi" Type="VI" URL="../VISA Resources/dependencies/rs232_build_visa_resource_name.vi"/>
+				<Item Name="rs232_string_params_to_ring.vi" Type="VI" URL="../VISA Resources/dependencies/rs232_string_params_to_ring.vi"/>
+			</Item>
+			<Item Name="Type Definitions" Type="Folder">
+				<Item Name="get_visa_resources_data.ctl" Type="VI" URL="../VISA Resources/Type Definitions/get_visa_resources_data.ctl"/>
+				<Item Name="get_visa_resources_states.ctl" Type="VI" URL="../VISA Resources/Type Definitions/get_visa_resources_states.ctl"/>
+			</Item>
+			<Item Name="close_visa_resources.vi" Type="VI" URL="../VISA Resources/close_visa_resources.vi"/>
+			<Item Name="open_visa_resources.vi" Type="VI" URL="../VISA Resources/open_visa_resources.vi"/>
+			<Item Name="VISA_config.ini" Type="Document" URL="../VISA Resources/VISA_config.ini"/>
+		</Item>
 		<Item Name="mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi" Type="VI" URL="../mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi"/>
-		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -184,69 +191,10 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="19052 Get_instrument_ID.vi" Type="VI" URL="../base drivers/19052 Get_instrument_ID.vi"/>
-			<Item Name="19052 Get_Result_ALL_JUDGMENT.vi" Type="VI" URL="../base drivers/19052 Get_Result_ALL_JUDGMENT.vi"/>
-			<Item Name="19052 Series START.vi" Type="VI" URL="../base drivers/19052 Series START.vi"/>
-			<Item Name="19052 Series STOP.vi" Type="VI" URL="../base drivers/19052 Series STOP.vi"/>
-			<Item Name="19052_Get_STATUS.vi" Type="VI" URL="../base drivers/19052_Get_STATUS.vi"/>
-			<Item Name="19052_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19052_rs232_settings.vi"/>
-			<Item Name="19572 Get_instrument_ID.vi" Type="VI" URL="../base drivers/19572 Get_instrument_ID.vi"/>
-			<Item Name="19572 Get_Result_ALL_JUDGMENT.vi" Type="VI" URL="../base drivers/19572 Get_Result_ALL_JUDGMENT.vi"/>
-			<Item Name="19572 Series START.vi" Type="VI" URL="../base drivers/19572 Series START.vi"/>
-			<Item Name="19572 Series STOP.vi" Type="VI" URL="../base drivers/19572 Series STOP.vi"/>
-			<Item Name="19572_Get_STATUS.vi" Type="VI" URL="../base drivers/19572_Get_STATUS.vi"/>
-			<Item Name="19572_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19572_rs232_settings.vi"/>
-			<Item Name="close_visa_resources.vi" Type="VI" URL="../VISA Resources/close_visa_resources.vi"/>
-			<Item Name="Delay.vi" Type="VI" URL="../base drivers/Delay.vi"/>
-			<Item Name="get_19052_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19052_COM_settings.vi"/>
-			<Item Name="get_19572_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19572_COM_settings.vi"/>
-			<Item Name="get_GPIB_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_GPIB_settings.vi"/>
-			<Item Name="get_interface_type.vi" Type="VI" URL="../VISA Resources/dependencies/get_interface_type.vi"/>
-			<Item Name="get_visa_resources_data.ctl" Type="VI" URL="../VISA Resources/Type Definitions/get_visa_resources_data.ctl"/>
-			<Item Name="get_visa_resources_states.ctl" Type="VI" URL="../VISA Resources/Type Definitions/get_visa_resources_states.ctl"/>
-			<Item Name="gpib_build_visa_resource_name.vi" Type="VI" URL="../VISA Resources/dependencies/gpib_build_visa_resource_name.vi"/>
-			<Item Name="open_visa_resources.vi" Type="VI" URL="../VISA Resources/open_visa_resources.vi"/>
-			<Item Name="rs232_build_visa_resource_name.vi" Type="VI" URL="../VISA Resources/dependencies/rs232_build_visa_resource_name.vi"/>
-			<Item Name="rs232_string_params_to_ring.vi" Type="VI" URL="../VISA Resources/dependencies/rs232_string_params_to_ring.vi"/>
-			<Item Name="VISA_session_close.vi" Type="VI" URL="../base drivers/VISA_session_close.vi"/>
-			<Item Name="VISA_session_open.vi" Type="VI" URL="../base drivers/VISA_session_open.vi"/>
+			<Item Name="GB Data.ctl" Type="VI" URL="../controls/GB Data.ctl"/>
+			<Item Name="HP Data.ctl" Type="VI" URL="../controls/HP Data.ctl"/>
+			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Main Application" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{51D186D8-2FD9-4F4B-8F36-40D68E57FFBC}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F8BAE070-8383-465E-800B-3DF9D752A65B}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{96FCFFEE-92FF-41D7-8A5C-2E1B7D4F08B1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Main Application</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9236DFC5-A1BE-45C5-93F4-A12737594CB8}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Main.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/Main.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Main Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
-				<Property Name="TgtF_productName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{8D31CF1E-BFEE-4FAB-AC90-991853A95B09}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Main.exe</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

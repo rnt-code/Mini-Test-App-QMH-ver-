@@ -135,6 +135,7 @@
 		<Item Name="stopwatch kernel3.vi" Type="VI" URL="../Stopwatch/stopwatch kernel3.vi"/>
 		<Item Name="Timer Data.ctl" Type="VI" URL="../controls/Timer Data.ctl"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
+		<Item Name="Timer2.vi" Type="VI" URL="../Timer2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

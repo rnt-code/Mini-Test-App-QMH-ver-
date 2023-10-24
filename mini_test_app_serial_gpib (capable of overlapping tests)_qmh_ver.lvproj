@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -78,12 +79,18 @@
 			<Item Name="test_number_selector.vi" Type="VI" URL="../dependencies/test_number_selector.vi"/>
 			<Item Name="time_adding_loop.vi" Type="VI" URL="../dependencies/time_adding_loop.vi"/>
 			<Item Name="Trim_Whitespace_re_entrant.vi" Type="VI" URL="../dependencies/Trim_Whitespace_re_entrant.vi"/>
+			<Item Name="launch_test_2.vi" Type="VI" URL="../dependencies/launch_test_2.vi"/>
+			<Item Name="launch_test_1.vi" Type="VI" URL="../dependencies/launch_test_1.vi"/>
+			<Item Name="launch_timer.vi" Type="VI" URL="../dependencies/launch_timer.vi"/>
+			<Item Name="stop_all_test.vi" Type="VI" URL="../dependencies/stop_all_test.vi"/>
 		</Item>
 		<Item Name="Stopwatch" Type="Folder">
 			<Item Name="stop_watch_w_feedback_node1.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node1.vi"/>
 			<Item Name="stop_watch_w_feedback_node2.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node2.vi"/>
 			<Item Name="stopwatch kernel1.vi" Type="VI" URL="../Stopwatch/stopwatch kernel1.vi"/>
 			<Item Name="stopwatch kernel2.vi" Type="VI" URL="../Stopwatch/stopwatch kernel2.vi"/>
+			<Item Name="stop_watch_w_feedback_node3.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node3.vi"/>
+			<Item Name="stopwatch kernel3.vi" Type="VI" URL="../Stopwatch/stopwatch kernel3.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="Message Queue" Type="Folder">
@@ -96,7 +103,7 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop_for_GB_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_GB_loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop_for_HP_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_HP_loop.vi"/>
-			<Item Name="Error Handler - Message Handling Loop_for_MAIN.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_MAIN.vi"/>
+			<Item Name="Error Handler - Message Handling Loop_for_TIMER_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_TIMER_loop.vi"/>
 		</Item>
 		<Item Name="Test definition module" Type="Folder">
 			<Item Name="dependencies" Type="Folder">
@@ -130,14 +137,7 @@
 			<Item Name="open_visa_resources.vi" Type="VI" URL="../VISA Resources/open_visa_resources.vi"/>
 			<Item Name="VISA_config.ini" Type="Document" URL="../VISA Resources/VISA_config.ini"/>
 		</Item>
-		<Item Name="Error Handler - Message Handling Loop_for_TIMER_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_TIMER_loop.vi"/>
-		<Item Name="launch_test_1.vi" Type="VI" URL="../dependencies/launch_test_1.vi"/>
-		<Item Name="launch_test_2.vi" Type="VI" URL="../dependencies/launch_test_2.vi"/>
-		<Item Name="launch_timer.vi" Type="VI" URL="../dependencies/launch_timer.vi"/>
 		<Item Name="mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi" Type="VI" URL="../mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi"/>
-		<Item Name="stop_all_test.vi" Type="VI" URL="../dependencies/stop_all_test.vi"/>
-		<Item Name="stop_watch_w_feedback_node3.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node3.vi"/>
-		<Item Name="stopwatch kernel3.vi" Type="VI" URL="../Stopwatch/stopwatch kernel3.vi"/>
 		<Item Name="Timer Data.ctl" Type="VI" URL="../controls/Timer Data.ctl"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Timer2.vi" Type="VI" URL="../Timer2.vi"/>
@@ -202,6 +202,7 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Error Handler - Message Handling Loop_for_MAIN_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_MAIN_loop.vi"/>
 			<Item Name="GB Data.ctl" Type="VI" URL="../controls/GB Data.ctl"/>
 			<Item Name="HP Data.ctl" Type="VI" URL="../controls/HP Data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>

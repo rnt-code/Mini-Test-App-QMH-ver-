@@ -130,6 +130,7 @@
 			<Item Name="open_visa_resources.vi" Type="VI" URL="../VISA Resources/open_visa_resources.vi"/>
 			<Item Name="VISA_config.ini" Type="Document" URL="../VISA Resources/VISA_config.ini"/>
 		</Item>
+		<Item Name="Error Handler - Message Handling Loop_for_TIMER_loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop_for_TIMER_loop.vi"/>
 		<Item Name="launch_test_1.vi" Type="VI" URL="../dependencies/launch_test_1.vi"/>
 		<Item Name="launch_test_2.vi" Type="VI" URL="../dependencies/launch_test_2.vi"/>
 		<Item Name="launch_timer.vi" Type="VI" URL="../dependencies/launch_timer.vi"/>

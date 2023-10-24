@@ -134,6 +134,7 @@
 		<Item Name="launch_test_2.vi" Type="VI" URL="../dependencies/launch_test_2.vi"/>
 		<Item Name="launch_timer.vi" Type="VI" URL="../dependencies/launch_timer.vi"/>
 		<Item Name="mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi" Type="VI" URL="../mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi"/>
+		<Item Name="stop_all_test.vi" Type="VI" URL="../dependencies/stop_all_test.vi"/>
 		<Item Name="stop_watch_w_feedback_node3.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node3.vi"/>
 		<Item Name="stopwatch kernel3.vi" Type="VI" URL="../Stopwatch/stopwatch kernel3.vi"/>
 		<Item Name="Timer Data.ctl" Type="VI" URL="../controls/Timer Data.ctl"/>

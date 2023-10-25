@@ -96,8 +96,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="stop_watch_w_feedback_node3.vi" Type="VI" URL="../../../../MiniTestApp-capable-of-overlapping-tests--SERIAL-GPIB-qmh-ver/Stopwatch/stop_watch_w_feedback_node3.vi"/>
-			<Item Name="stopwatch kernel3.vi" Type="VI" URL="../../../../MiniTestApp-capable-of-overlapping-tests--SERIAL-GPIB-qmh-ver/Stopwatch/stopwatch kernel3.vi"/>
+			<Item Name="stop_watch_w_feedback_node3.vi" Type="VI" URL="../../Stopwatch/stop_watch_w_feedback_node3.vi"/>
+			<Item Name="stopwatch kernel3.vi" Type="VI" URL="../../Stopwatch/stopwatch kernel3.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">

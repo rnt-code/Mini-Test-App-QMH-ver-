@@ -142,7 +142,6 @@
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Timer2.vi" Type="VI" URL="../Timer2.vi"/>
 		<Item Name="turn_off_indicators.vi" Type="VI" URL="../dependencies/turn_off_indicators.vi"/>
-		<Item Name="stop_test2_and_timer.vi" Type="VI" URL="../dependencies/stop_test2_and_timer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -209,6 +208,7 @@
 			<Item Name="19052_pass_fail_parser.vi" Type="VI" URL="../dependencies/19052_pass_fail_parser.vi"/>
 			<Item Name="19572_pass_fail_parser.vi" Type="VI" URL="../dependencies/19572_pass_fail_parser.vi"/>
 			<Item Name="exit_tasks.vi" Type="VI" URL="../dependencies/exit_tasks.vi"/>
+			<Item Name="stop_hp_test_if_gb_test_fail.vi" Type="VI" URL="../dependencies/stop_hp_test_if_gb_test_fail.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

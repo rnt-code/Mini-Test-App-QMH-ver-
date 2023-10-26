@@ -1,5 +1,5 @@
 # Mini-Test-App-QMH-ver-
-version aplicando la arquitectura QMH
+Version built on the QMH (Queue Message Handler) framework. LabVIEW 2015 version.
 
 This App is a simplified version for the control of Electrical Safety test instruments.
 The instruments targeted by this App are the CHROMA 19052 (Hi-Pot Tester) and CHROMA 19572 (Ground Bond Tester).

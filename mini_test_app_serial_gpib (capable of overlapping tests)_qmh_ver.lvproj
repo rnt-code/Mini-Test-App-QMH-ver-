@@ -68,7 +68,6 @@
 			<Item Name="19572_get_test_times.vi" Type="VI" URL="../dependencies/19572_get_test_times.vi"/>
 			<Item Name="delay_time_control.vi" Type="VI" URL="../dependencies/delay_time_control.vi"/>
 			<Item Name="error_messages.vi" Type="VI" URL="../dependencies/error_messages.vi"/>
-			<Item Name="exit-tasks.vi" Type="VI" URL="../dependencies/exit-tasks.vi"/>
 			<Item Name="get_active_modes.vi" Type="VI" URL="../dependencies/get_active_modes.vi"/>
 			<Item Name="get_and_insert_SN.vi" Type="VI" URL="../dependencies/get_and_insert_SN.vi"/>
 			<Item Name="read_delay_time.vi" Type="VI" URL="../dependencies/read_delay_time.vi"/>
@@ -83,6 +82,7 @@
 			<Item Name="launch_test_1.vi" Type="VI" URL="../dependencies/launch_test_1.vi"/>
 			<Item Name="launch_timer.vi" Type="VI" URL="../dependencies/launch_timer.vi"/>
 			<Item Name="stop_all_test.vi" Type="VI" URL="../dependencies/stop_all_test.vi"/>
+			<Item Name="turn_off_indicators.vi" Type="VI" URL="../dependencies/turn_off_indicators.vi"/>
 		</Item>
 		<Item Name="Stopwatch" Type="Folder">
 			<Item Name="stop_watch_w_feedback_node1.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node1.vi"/>
@@ -138,10 +138,7 @@
 			<Item Name="VISA_config.ini" Type="Document" URL="../VISA Resources/VISA_config.ini"/>
 		</Item>
 		<Item Name="mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi" Type="VI" URL="../mini_test_app_serial_gpib (capable of overlapping tests)_qmh_ver.vi"/>
-		<Item Name="Timer Data.ctl" Type="VI" URL="../controls/Timer Data.ctl"/>
-		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
-		<Item Name="Timer2.vi" Type="VI" URL="../Timer2.vi"/>
-		<Item Name="turn_off_indicators.vi" Type="VI" URL="../dependencies/turn_off_indicators.vi"/>
+		<Item Name="stop_gb_test_if_hp_test_fail.vi" Type="VI" URL="../dependencies/stop_gb_test_if_hp_test_fail.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -165,7 +162,6 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -190,7 +186,6 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -209,6 +204,7 @@
 			<Item Name="19572_pass_fail_parser.vi" Type="VI" URL="../dependencies/19572_pass_fail_parser.vi"/>
 			<Item Name="exit_tasks.vi" Type="VI" URL="../dependencies/exit_tasks.vi"/>
 			<Item Name="stop_hp_test_if_gb_test_fail.vi" Type="VI" URL="../dependencies/stop_hp_test_if_gb_test_fail.vi"/>
+			<Item Name="Timer Data.ctl" Type="VI" URL="../controls/Timer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

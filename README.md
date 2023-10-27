@@ -1,4 +1,4 @@
-# Mini-Test-App-QMH-ver-
+# Mini Test App
 Version built on the LabVIEW (2015) QMH (Queue Message Handler) framework.
 
 This App is a simplified version for the control of Electrical Safety test instruments.

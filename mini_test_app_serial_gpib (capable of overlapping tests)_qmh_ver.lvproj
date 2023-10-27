@@ -89,7 +89,7 @@
 			<Item Name="stop_watch_w_feedback_node1.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node1.vi"/>
 			<Item Name="stop_watch_w_feedback_node2.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node2.vi"/>
 			<Item Name="stopwatch kernel1.vi" Type="VI" URL="../Stopwatch/stopwatch kernel1.vi"/>
-			<Item Name="stopwatch kernel2.vi" Type="VI" URL="../Stopwatch/stopwatch kernel2.vi"/>
+			<Item Name="stopwatch kernel2.vi" Type="VI" URL="../../SE-Test-GPIB-Box-Compatible/QMH/Stopwatch/stopwatch kernel2.vi"/>
 			<Item Name="stop_watch_w_feedback_node3.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node3.vi"/>
 			<Item Name="stopwatch kernel3.vi" Type="VI" URL="../Stopwatch/stopwatch kernel3.vi"/>
 		</Item>

@@ -38,7 +38,7 @@
 		<Item Name="VISA Resources" Type="Folder" URL="../VISA Resources">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="mini_test_main_(QMH _ver).vi" Type="VI" URL="../mini_test_main_(QMH _ver).vi"/>
+		<Item Name="mini_test_main_(QMH_ver).vi" Type="VI" URL="../mini_test_main_(QMH_ver).vi"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
